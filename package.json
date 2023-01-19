@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "start": "NODE_PATH=dist node dist/app.js",
-    "dev": "NODE_PATH=dist nodemon dist/app.js",
+    "app": "NODE_PATH=dist nodemon dist/app.js",
+    "server": "NODE_PATH=dist nodemon dist/server.js",
     "watch": "tsc -w",
     "build": "tsc"
   },
